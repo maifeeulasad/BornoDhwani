@@ -1,3 +1,5 @@
+.PHONY: lint lint-fix test
+
 lint:
 	ruff check .
 
