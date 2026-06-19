@@ -1,4 +1,4 @@
-.PHONY: lint lint-fix test
+.PHONY: lint lint-fix install test
 
 lint:
 	ruff check .
