@@ -1027,7 +1027,7 @@ def test_edge_cases():
             try:
                 result = c(VIRAMA)
                 check('virama alone → empty or passthrough', isinstance(result, str), True)
-            except Exception as e:
+            except Exception:
                 check('virama alone should not raise', False, True)
 
         with suite('Only anusvara'):
