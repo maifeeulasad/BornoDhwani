@@ -1,0 +1,7 @@
+[project]
+name = "mua-g2p"
+version = "0.0.0"
+description = "Grapheme-to-Phoneme (G2P) conversion library"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
