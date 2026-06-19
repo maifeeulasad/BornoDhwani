@@ -427,11 +427,16 @@ class BengaliG2P:
         dental  = set('তথদধন')
         labial  = set('পফবভম')
 
-        if following in velar:   return 'ŋ'
-        if following in palatal: return 'n'   # /ɲ/ not phonemic
-        if following in retro:   return 'n'
-        if following in dental:  return 'n'
-        if following in labial:  return 'm'
+        if following in velar:
+            return 'ŋ'
+        if following in palatal: 
+            return 'n'   # /ɲ/ not phonemic
+        if following in retro:
+            return 'n'
+        if following in dental:
+            return 'n'
+        if following in labial:
+            return 'm'
         return 'ŋ'  # default (word-final or before vowel)
 
 
