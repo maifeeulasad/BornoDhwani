@@ -3,7 +3,7 @@ revision = 3
 requires-python = ">=3.12"
 
 [[package]]
-name = "mua-g2p"
+name = "bornodhwani"
 version = "0.0.0"
 source = { virtual = "." }
 
